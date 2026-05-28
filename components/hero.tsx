@@ -217,12 +217,13 @@ export function HeroSection() {
       </div>
 
       {/* SCROLL INDICATOR */}
+      ={/* SCROLL INDICATOR */}
       <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2"
-      >
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: 1 }}
+      className="hidden md:block absolute bottom-8 left-1/2 -translate-x-1/2"
+     >
 
         <motion.div
           animate={{ y: [0, 10, 0] }}
